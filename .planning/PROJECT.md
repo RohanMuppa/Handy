@@ -31,10 +31,19 @@ The recording waveform must feel alive, responsive, and elegant — a flowing mu
 ### Out of Scope
 
 - Rust FFT changes — the backend data is good enough, this is purely a frontend rendering problem
-- Overlay positioning changes — positioning is correct and well-implemented
 - New overlay dimensions — keep 172x36px window, 90x24px canvas
-- Other Handy features — this is scoped to the waveform animation only
 - Automated visual testing — verification is human-visual only
+
+### Future Milestone Ideas
+
+- **Light orange color system**: Change whole system color (menu bar + voice bar) to a light orange theme. Push to fork only, NOT a PR to upstream.
+- **Voice bar positioning fixes**: Review and fix any positioning issues with the voice bar. Could be coupled with the orange color change as one milestone.
+
+
+### PR Strategy
+
+- **This milestone (waveform animation)**: Create PR to the original upstream repo
+- **Orange color change**: Push to fork only, no upstream PR
 
 ## Context
 
